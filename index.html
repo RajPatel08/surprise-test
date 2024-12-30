@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery with Filters</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Task Links</title>
 </head>
 <body>
-    <div class="filter-buttons">
-        <button class="filter-button" data-filter="all">All</button>
-        <button class="filter-button" data-filter="nature">Nature</button>
-        <button class="filter-button" data-filter="animals">Animals</button>
-        <button class="filter-button" data-filter="cities">Cities</button>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 100px;">
+        <table border="1" style="width: 50%; text-align: center;">
+            <tr>
+                <th>Task</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Image gallery</td>
+                <td><a href="q1.html">open</a></td>
+            </tr>
+            <tr>
+                <td>Video Player </td>
+                <td><a href="playback.html">Open</a></td>
+            </tr>
+        </table>
     </div>
-    <div class="gallery" id="gallery">
-    </div>
-    <div class="loading" id="loading">Loading...</div>
-
-    <script src="script.js"></script>
 </body>
 </html>
